@@ -1,10 +1,11 @@
 import LandingPage from "views/LandingPage/LandingPage.jsx";
-import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+import WarmupPage from "views/WarmupPage/WarmupPage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
 
 var indexRoutes = [
   { path: "/landing-page", name: "LandingPage", component: LandingPage },
-  { path: "/profile-page", name: "ProfilePage", component: ProfilePage },
+  { path: "/warm-up-page", name: "WarmupPage", component: WarmupPage },
+  { path: "/login-page", name: "ProfilePage", component: LoginPage },
   { path: "/", name: "LandingPage", component: LandingPage }
 ];
 
