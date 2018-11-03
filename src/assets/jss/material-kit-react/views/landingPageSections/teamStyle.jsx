@@ -3,13 +3,13 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const teamStyle = {
   section: {
-    padding: "70px 0",
+    padding: "20px 0",
     textAlign: "center"
   },
   title: {
     ...title,
+    color:"white",
     marginBottom: "1rem",
-    marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
   },
@@ -20,10 +20,13 @@ const teamStyle = {
   },
   cardTitle,
   smallTitle: {
-    color: "#6c757d"
+    color: "#fff",
+    fontSize: "24px",
+    padding: "70px 0",
+
   },
   description: {
-    color: "#999"
+    color: "white"
   },
   justifyCenter: {
     justifyContent: "center !important"
@@ -37,7 +40,7 @@ const teamStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px",
-    color: "#999"
+    color: "white"
   },
   margin5: {
     margin: "5px"

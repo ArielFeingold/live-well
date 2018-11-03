@@ -53,8 +53,7 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           target="_blank"
           className={classes.navLink}
-        >
-          <ChromeReaderModeRounded className={classes.icons} /> Tim's Blog
+        > Tim's Blog
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

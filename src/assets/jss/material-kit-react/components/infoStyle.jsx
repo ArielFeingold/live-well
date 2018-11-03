@@ -42,16 +42,20 @@ const infoStyle = {
     color: grayColor
   },
   icon: {
-    width: "36px",
-    height: "36px"
+    width: "24px",
+    height: "24px"
   },
   descriptionWrapper: {
-    color: grayColor,
+    color: "white",
     overflow: "hidden"
   },
-  title,
+  title: {
+    color: "white",
+    fontSize: "20px",
+    fontWeight: "bold"
+  },
   description: {
-    color: grayColor,
+    color: "white",
     overflow: "hidden",
     marginTop: "0px",
     fontSize: "14px"

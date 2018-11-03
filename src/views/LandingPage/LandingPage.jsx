@@ -20,7 +20,6 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -45,21 +44,10 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Be Active,<br /> Stay Healthy!</h1>
+                <h1 className={classes.title}>Welcome to LiveWell</h1>
                 <h4>
                   LiveWell provides athletes and weekend warriors the tools and information to sustain health and avoid injury.
-
                 </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />Watch video
-                </Button>
               </GridItem>
             </GridContainer>
           </div>
@@ -68,7 +56,6 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <ProductSection />
             <TeamSection />
-            <WorkSection />
           </div>
         </div>
         <Footer />
