@@ -11,7 +11,7 @@ const navPillsStyle = theme => ({
   root: {
     marginTop: "20px",
     paddingLeft: "0",
-    marginBottom: "0",
+    marginBottom: "30px",
     overflow: "visible !important"
   },
   flexContainer: {
