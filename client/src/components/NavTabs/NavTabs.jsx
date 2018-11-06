@@ -9,11 +9,14 @@ import NoSsr from '@material-ui/core/NoSsr';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 
-import navTabsStyle from "assets/jss/material-kit-react/components/navTabsStyle.jsx";
+
+import navTabsStyle from "assets/jss/material-kit-react/components/navTabsStyle";
+
+import VideoList from "components/VideoList/VideoList.jsx";
 
 function TabContainer(props) {
   return (
-    <Typography component="div" style={{ padding: 8 * 3 }}>
+    <Typography component="div" style={{ padding: 8 }}>
       {props.children}
     </Typography>
   );
@@ -51,7 +54,7 @@ class NavTabs extends React.Component {
               <Tab label="Articles" />
             </Tabs>
           </AppBar>
-          {value === 0 && <TabContainer>Elements</TabContainer>}
+          {value === 0 && <TabContainer><VideoList /></TabContainer>}
           {value === 1 && <TabContainer>Complete Wokouts</TabContainer>}
           {value === 2 && <TabContainer>Articles</TabContainer>}
         </div>
