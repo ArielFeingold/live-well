@@ -11,6 +11,7 @@ import VideoListItem from "components/VideoListItem/VideoListItem.jsx";
 
 function VideoList(props) {
   const { classes } = props;
+  const videos = props.videos
 
   return (
     <div className={classes.root}>
